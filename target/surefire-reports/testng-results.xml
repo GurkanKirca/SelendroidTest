@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="52941" started-at="2022-10-27T15:34:12Z" finished-at="2022-10-27T15:35:05Z">
+  <suite name="Surefire suite" duration-ms="47853" started-at="2022-10-27T19:48:07Z" finished-at="2022-10-27T19:48:55Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="52941" started-at="2022-10-27T15:34:12Z" finished-at="2022-10-27T15:35:05Z">
+    <test name="Surefire test" duration-ms="47853" started-at="2022-10-27T19:48:07Z" finished-at="2022-10-27T19:48:55Z">
       <class name="SelendroidTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="setup" is-config="true" duration-ms="24380" started-at="2022-10-27T15:34:12Z" finished-at="2022-10-27T15:34:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="setup" is-config="true" duration-ms="23136" started-at="2022-10-27T19:48:07Z" finished-at="2022-10-27T19:48:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="displayTest()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="displayTest" duration-ms="1946" started-at="2022-10-27T15:34:36Z" finished-at="2022-10-27T15:34:38Z">
+        <test-method status="PASS" signature="displayTest()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="displayTest" duration-ms="1492" started-at="2022-10-27T19:48:30Z" finished-at="2022-10-27T19:48:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayTest -->
-        <test-method status="PASS" signature="focusClick()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="focusClick" duration-ms="1487" started-at="2022-10-27T15:34:38Z" finished-at="2022-10-27T15:34:40Z">
+        <test-method status="PASS" signature="focusClick()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="focusClick" duration-ms="1346" started-at="2022-10-27T19:48:31Z" finished-at="2022-10-27T19:48:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- focusClick -->
-        <test-method status="PASS" signature="registerClick()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="registerClick" duration-ms="17256" started-at="2022-10-27T15:34:40Z" finished-at="2022-10-27T15:34:57Z">
+        <test-method status="PASS" signature="registerClick()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="registerClick" duration-ms="14669" started-at="2022-10-27T19:48:33Z" finished-at="2022-10-27T19:48:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerClick -->
-        <test-method status="PASS" signature="zEnClick()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="zEnClick" duration-ms="5266" started-at="2022-10-27T15:34:57Z" finished-at="2022-10-27T15:35:02Z">
+        <test-method status="PASS" signature="zEnClick()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="zEnClick" duration-ms="4585" started-at="2022-10-27T19:48:47Z" finished-at="2022-10-27T19:48:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- zEnClick -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="teardown" is-config="true" duration-ms="2537" started-at="2022-10-27T15:35:02Z" finished-at="2022-10-27T15:35:05Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SelendroidTest@2c9f9fb0]" name="teardown" is-config="true" duration-ms="2582" started-at="2022-10-27T19:48:52Z" finished-at="2022-10-27T19:48:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
