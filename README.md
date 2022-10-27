@@ -1,4 +1,6 @@
 **Selendroid Mobile Automation**
+
+
 Project testing selendriod-test-app. 
 In this project; Appium, Appium Inspector, Android Studio(For Emulator) and Intellij idea tools were used.
 
