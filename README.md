@@ -6,7 +6,7 @@ In this project; Appium, Appium Inspector, Android Studio(For Emulator) and Inte
 
 Scenario 1; 
 
-@Test
+    @Test
     public void displayTest() {
             displayClick();//İlk çalıştırmada texti görmesi gerek
             Assert.assertThrows(NoSuchElementException.class, this::displayClick); //İkinci çalıştırmada ise text kapandığı için göremeyecek
@@ -24,7 +24,7 @@ and 'Display text view' is clicked. Verified that the text field is not on the s
 
 Scenario 2;
 
- @Test
+    @Test
     public void focusClick() {
         WebElement displayFocus = wait.until(ExpectedConditions.elementToBeClickable(By.id("io.selendroid.testapp:id/topLevelElementTest")));
         focusText("true");
@@ -38,13 +38,14 @@ Scenario 2;
         Assert.assertEquals(isFocus, focus);
     }
     
-    1-Verifies that the focus property of the field 'my_text_field' is true.
-    2-Click the 'Display and focus on layout' button. Verifies that the focus property of the field 'my_text_field' is false.
+1-Verifies that the focus property of the field 'my_text_field' is true.
+
+2-Click the 'Display and focus on layout' button. Verifies that the focus property of the field 'my_text_field' is false.
     
-    Scenario 3;
+Scenario 3;
     
       @Test
-    public void registerClick() {
+       public void registerClick() {
         WebElement folderButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("io.selendroid.testapp:id/startUserRegistration")));
         folderButton.click();
         WebElement usernameArea = wait.until(ExpectedConditions.elementToBeClickable(By.id("io.selendroid.testapp:id/inputUsername")));
@@ -88,17 +89,19 @@ Scenario 2;
         registerButton.click();
     }
     
-    1- Click 'startUserRegistrationCD'.
-    2-'Username' field is clicked and 'Ali' is written.
-      'E-Mail' field is clicked and 'ali@gmail' is written.
-      'Password' field is clicked and '1234' is written.
-      'Name' field is clicked and 'Mr.Ali' is written.
-      'Programming Language' field is clicked and 'Java' is selected.
-      'Accept Add' area is clicked.
-      'Register User' button is clicked.
-    3-Matches the information on the previous screen.
+ 1- Click 'startUserRegistrationCD'.
+ 
+ 2-'Username' field is clicked and 'Ali' is written.
+ 'E-Mail' field is clicked and 'ali@gmail' is written.
+'Password' field is clicked and '1234' is written.
+'Name' field is clicked and 'Mr.Ali' is written.
+'Programming Language' field is clicked and 'Java' is selected.
+'Accept Add' area is clicked.
+'Register User' button is clicked.
+
+ 3-Matches the information on the previous screen.
     
-    Scenario 4;
+ Scenario 4;
     
     @Test
     public void zEnClick() throws InterruptedException {
@@ -135,12 +138,15 @@ Scenario 2;
         }
     }
     
-    1- Click 'EN Button'.
-    2- Click the 'No, no' button and The 'Event will continue' message is confirmed on the screen.
-    3- Click 'EN Button'.
-    4- Click the 'I agree' button and confirmation that the application is closed.
+ 1- Click 'EN Button'.
+ 
+ 2- Click the 'No, no' button and The 'Event will continue' message is confirmed on the screen.
+ 
+ 3- Click 'EN Button'.
+ 
+ 4- Click the 'I agree' button and confirmation that the application is closed.
     
-    **Bonus Activities**
+  **Bonus Activities**
       
     mvn -Dtest=SelendroidTest test
     
