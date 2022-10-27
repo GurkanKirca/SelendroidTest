@@ -1,5 +1,6 @@
 **Selendroid Mobile Automation**
-selendriod-test-app uygulamasını test eden proje. Bu projede Appium , appium inspector, android emulator ve Intellij idea tool larından yararlanılmıştır.
+Project testing selendriod-test-app. 
+In this project; Appium, Appium Inspector, Android Studio(For Emulator) and Intellij idea tools were used.
 
 Scenario 1; 
 
