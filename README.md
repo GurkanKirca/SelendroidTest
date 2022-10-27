@@ -139,6 +139,8 @@ Scenario 2;
     2- Click the 'No, no' button and The 'Event will continue' message is confirmed on the screen.
     3- Click 'EN Button'.
     4- Click the 'I agree' button and confirmation that the application is closed.
-      
     
+    **Bonus Activities**
+      
+    mvn -Dtest=SelendroidTest test
     
