@@ -115,7 +115,7 @@ public class SelendroidTest {
 
     public boolean isBrowserOpen() {
         try {
-            driver.getTitle(); //can also use driver.getCurrentUrl()
+            driver.getTitle();
             return true;
         }
         catch(Exception e) {
